@@ -57,7 +57,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/agmip/translator-dist.git</connection>
-        <developerConnection>scm:git:git@github.com/agmip/translator-dist.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:agmip/translator-dist.git</developerConnection>
         <url>http://github.com/agmip/translator-dist</url>
     </scm>
 </project>
