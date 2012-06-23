@@ -29,7 +29,7 @@
         <license>
             <name>BSD 3-Clause License</name>
             <url>http://raw.github.com/agmip/translator-dist/LICENSE.txt</url>
-            <dist>repo</dist>
+            <distribution>repo</distribution>
         </license>
     </licenses>
 
@@ -46,15 +46,14 @@
                 <groupId>org.agmip</groupId>
                 <artifactId>agmip-core</artifactId>
                 <version>${agmip.core.version}</version>
-                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.10</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
     </dependencyManagement>
 
     <scm>
