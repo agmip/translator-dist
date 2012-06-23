@@ -60,4 +60,13 @@
         <developerConnection>scm:git:git@github.com:agmip/translator-dist.git</developerConnection>
         <url>http://github.com/agmip/translator-dist</url>
     </scm>
+    <pluginsManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.3.2</version>
+            </plugin>
+        </plugins>
+    </pluginsManagement>
 </project>
