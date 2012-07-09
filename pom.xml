@@ -21,7 +21,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>0.10</agmip.core.version>
+        <agmip.core.version>0.11</agmip.core.version>
     </properties>
 
     <licenses>
