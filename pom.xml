@@ -21,7 +21,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>0.8</agmip.core.version>
+        <agmip.core.version>0.9</agmip.core.version>
     </properties>
 
     <licenses>
@@ -47,9 +47,9 @@
                 <version>${agmip.core.version}</version>
             </dependency>
             <dependency>
-                <groupId>commons-collections</groupId>
-                <artifactId>commons-collections</artifactId>
-                <version>3.2.1</version>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>12.0</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
