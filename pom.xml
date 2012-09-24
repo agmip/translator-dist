@@ -21,7 +21,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>0.12</agmip.core.version>
+        <agmip.core.version>0.14</agmip.core.version>
     </properties>
 
     <licenses>
@@ -45,6 +45,11 @@
                 <groupId>org.agmip</groupId>
                 <artifactId>agmip-core</artifactId>
                 <version>${agmip.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.agmip</groupId>
+                <artifactId>ace-lookup</artifactId>
+                <version>${ace.lookup.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
