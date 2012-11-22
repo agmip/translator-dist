@@ -3,7 +3,7 @@
 
     <groupId>org.agmip.translators</groupId>
     <artifactId>translator-dist</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -21,13 +21,14 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>0.14</agmip.core.version>
+        <agmip.core.version>0.15</agmip.core.version>
+        <ace.lookup.version>1.0</ace.lookup.version>
     </properties>
 
     <licenses>
         <license>
             <name>BSD 3-Clause License</name>
-            <url>http://raw.github.com/agmip/translator-dist/LICENSE.txt</url>
+            <url>http://raw.github.com/agmip/translator-dist/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -58,8 +59,8 @@
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-core</artifactId>
-                <version>1.0.6</version>
+                <artifactId>logback-classic</artifactId>
+                <version>1.0.7</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.velocity</groupId>
