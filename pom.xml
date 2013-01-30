@@ -3,7 +3,7 @@
 
     <groupId>org.agmip.translators</groupId>
     <artifactId>translator-dist</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -21,8 +21,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>0.15</agmip.core.version>
-        <ace.lookup.version>1.0</ace.lookup.version>
+        <agmip.core.version>1.0.1</agmip.core.version>
+        <ace.lookup.version>1.0.2</ace.lookup.version>
+        <agmip.common.functions.version>1.1</agmip.common.functions.version>
     </properties>
 
     <licenses>
@@ -66,6 +67,11 @@
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity</artifactId>
                 <version>1.7</version>
+            </dependency>
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>2.3.19</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
