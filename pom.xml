@@ -3,7 +3,7 @@
 
     <groupId>org.agmip.translators</groupId>
     <artifactId>translator-dist</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -21,7 +21,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>1.0.1</agmip.core.version>
+        <agmip.core.version>1.0.2</agmip.core.version>
         <ace.lookup.version>1.0.2</ace.lookup.version>
         <agmip.common.functions.version>1.1</agmip.common.functions.version>
     </properties>
