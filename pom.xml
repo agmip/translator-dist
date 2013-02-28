@@ -21,9 +21,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <agmip.core.version>1.0.2</agmip.core.version>
-        <ace.lookup.version>1.0.2</ace.lookup.version>
-        <agmip.common.functions.version>1.1</agmip.common.functions.version>
+        <agmip.core.version>1.1-SNAPSHOT</agmip.core.version>
+        <ace.lookup.version>1.1-SNAPSHOT</ace.lookup.version>
+        <agmip.common.functions.version>1.2-SNAPSHOT</agmip.common.functions.version>
     </properties>
 
     <licenses>
@@ -54,6 +54,11 @@
                 <version>${ace.lookup.version}</version>
             </dependency>
             <dependency>
+              <groupId>org.agmip</groupId>
+              <artifactId>acmo</artifactId>
+              <version>2.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>12.0</version>
@@ -61,7 +66,7 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.9</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.velocity</groupId>
@@ -76,7 +81,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.10</version>
+                <version>4.11</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
