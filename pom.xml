@@ -54,6 +54,11 @@
                 <version>${ace.lookup.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.agmip</groupId>
+                <artifactId>agmip-common-functions</artifactId>
+                <version>${agmip.common.functions.version}</version>
+            </dependency>
+            <dependency>
               <groupId>org.agmip</groupId>
               <artifactId>acmo</artifactId>
               <version>1.0</version>
