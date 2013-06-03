@@ -3,7 +3,7 @@
 
     <groupId>org.agmip.translators</groupId>
     <artifactId>translator-dist</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -91,7 +91,7 @@
         <connection>scm:git:git://github.com/agmip/translator-dist.git</connection>
         <developerConnection>scm:git:git@github.com:agmip/translator-dist.git</developerConnection>
         <url>http://github.com/agmip/translator-dist</url>
-        <tag>HEAD</tag>
+        <tag>translator-dist-1.0.2</tag>
     </scm>
     <build>
         <plugins>
